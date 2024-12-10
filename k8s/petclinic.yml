@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: workload
-          image: docker.io/rajsomesetty/spring-petclinic-bosch:7
+          image: dsyer/petclinic
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: postgres
