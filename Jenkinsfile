@@ -27,7 +27,7 @@ pipeline {
                 checkout scm  // Checks out the repository from the configured SCM
             }
         }
-
+        /*  
         stage('Build') {
             steps {
                 echo 'Building the project...'
@@ -52,6 +52,7 @@ pipeline {
                 // Add deployment steps here if needed
             }
         }
+        */
     }
 
     post {
